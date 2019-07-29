@@ -1,7 +1,7 @@
 SvnHack
 =
  
-一个Svn信息泄露辅助工具，可以使用这个脚本列取网站目录，读取源码文件以及下载整站代码。
+Svn信息泄露利用工具，该脚本功能包括：列取网站目录、读取源码文件、下载整站代码。
  
 Usage: SvnHack.py [options]
  
@@ -25,11 +25,11 @@ Options:
  
     - 指定目录     python SvnHack.py -u http://x.x.x.x/.svn/entries  -d scripts
  
-读源码:
+读取源码文件:
  
     -  指定文件    python SvnHack.py -u http://x.x.x.x/.svn/entries  -d scripts -r  upd.js
  
-下载整站:          
+下载整站代码:          
  
     -              python SvnHack.py -u http://x.x.x.x/.svn/entries  —download
  
